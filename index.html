@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>输入输出</title>
+</head>
+<body>
+	<form target = "_blank" action = "welcome.php"method = "post" autocomplete = "off">
+		<fieldset>
+			<legend>基本信息</legend>
+			<label for = "name">name:</label><input type = "text" name = "name" id = "name"><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>密码</legend>
+			<label for = "gay">adress:</label><input type = "password"name = "email" id = "gay"><br><br>
+			<label for = "age">年纪:
+				<select name = "age">
+					<optgroup label = "少女">
+						<option>18</option>
+					</optgroup>
+					<optgroup label = "少妇">
+						<option>38</option>
+					</optgroup>
+			</label><br><br>
+		</fieldset>
+		<button type = "submit">提交</button>
+		
+			<label><input type = "radio" name = "sex" value = "male">男</label>
+			<label><input type = "radio" name = "sex" value = "female">女</label>
+			
+			<label><input type = "time" name = "time"></label><br><br>
+			<label><input type = "date" name = "date"></label><br><br>
+			<label><input type = "month" name = "month"></label><br><br>
+			<label><input type = "week" name = "week"></label><br><br>
+			<label><input type = "datetime-local" name = "datetime-local"></label><br><br>
+		<button type = "submit">提交</button>
+	</form>
+</body>
+</html>
